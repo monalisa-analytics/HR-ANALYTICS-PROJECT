@@ -1,2 +1,6 @@
-# HR-ANALYTICS-PROJECT
-HR Analytics project analyzing employee attrition, demographics, performance, and attendance patterns using Python and data visualization techniques.
+## 📄 Project Report
+
+A detailed HR Analytics project report covering objectives, dataset description,
+data cleaning, KPIs, visual analysis, and key insights is available below:
+
+➡️ [View Project Report](Report/PROJECT REPORT.md)
