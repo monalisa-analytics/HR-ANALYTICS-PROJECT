@@ -1,22 +1,24 @@
 # 👥 HR Analytics — Employee Attrition Dashboard
 
 ### 🎯 Business Problem
-The organization was losing employees without a clear picture of why — HR had raw workforce data but no systematic view of which factors were actually driving attrition, satisfaction, or absenteeism.
+The organization faced employee attrition, productivity gaps, and engagement issues, with no data-driven view of which factors — department, age group, satisfaction, absences — were actually driving employees to leave.
 
 ### ✅ Solution
-Ran a Python-based exploratory analysis across employee records to calculate core HR KPIs and identify the strongest predictors of attrition, translating the findings into actionable retention insights.
+Cleaned and analyzed employee records in Python via Google Colaboratory, engineering an Attrition flag and Age Groups from raw fields, then calculated core HR KPIs and visualized attrition patterns across department, demographics, performance, and attendance to surface actionable retention drivers.
 
 ### 🛠 Tools & Techniques
-`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
-— data cleaning, KPI calculation (Attrition Rate, Engagement Score, Satisfaction, Absence Rate), exploratory data analysis, visual pattern analysis.
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Google Colaboratory`
+— data cleaning & feature engineering (Attrition flag, Age Groups from DOB), KPI calculation (Attrition Rate, Engagement Score, Satisfaction, Absences), visual analysis across department, gender, age, salary, and performance.
 
 ### 📊 Dataset
-311 employee records · 37 features — covering demographics, performance, engagement, satisfaction, and attendance.
+311 employee records · 37 features — employee info, job details, performance scores, attendance, employment status, compensation, and demographics.
 
 ### 🔍 Key Findings
-- Low satisfaction and high absenteeism emerged as the primary attrition drivers
-- Engagement and satisfaction scores showed a clear link to attrition risk
-- Findings translated into actionable HR retention recommendations
+- Certain departments show disproportionately higher attrition, pointing to workload or management issues
+- The majority of employees fall in the 36–45 age group
+- Lower satisfaction scores correlate with a higher probability of attrition
+- Higher absence rates correlate with employee turnover
+- Performance ratings show a clear impact on salary distribution
 
 ---
 
@@ -32,6 +34,10 @@ A detailed HR Analytics project report covering objectives, dataset description,
 ### Author
 **Monalisa Mahanta**
 Data Analyst · Power BI Developer · [PL-300 Certified]
+
+---
+
+
 
 
 
